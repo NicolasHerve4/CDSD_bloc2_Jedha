@@ -1,0 +1,14 @@
+cat > .gitignore << 'EOF'
+.DS_Store
+**/.DS_Store
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+__pycache__/
+**/__pycache__/
+*.pyc
+.venv/
+env/
+.env
+.vscode/
+**/~$*.pptx
+EOF
